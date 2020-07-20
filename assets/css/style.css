@@ -1,11 +1,9 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: arial,sans-serif;
-    justify-content: center;
-    align-items: center;
     display: flex;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 input{
@@ -24,7 +22,6 @@ button{
     border-radius: 4px;
     color: #5F6368;
     font-size: 14px;
-    margin: 20px 250px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -37,3 +34,21 @@ button{
 button:hover{
     border: 1px solid #dfe1e5;
 }
+
+.container{
+    text-align: center;
+}
+
+.btn-search{
+    margin-top: 30px;
+}
+
+.search{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    input{
+        width: 100%;
+    }
+  }
