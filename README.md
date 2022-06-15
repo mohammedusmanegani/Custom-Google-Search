@@ -1,4 +1,4 @@
-# Costome-Google-Search
+# Custom-Google-Search
 Costome-Google-Search using HTML.
 
 # DISCLAIMER: Only For Educational Purpose. Not For commercial Use.
